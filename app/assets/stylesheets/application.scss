@@ -13,6 +13,15 @@
  */
 
 body { padding-top: 0 }
-#header-block { background-image: image-url('header-background.jpg'); background-repeat: no-repeat; } 
-#header-block .header-overlay { background: rgba(0,0,0,0.6); }
+#header-block { 
+  background-image: image-url('header-background.jpg'); 
+  background-position: center top; 
+  background-repeat: no-repeat; 
+  background-size: 100% auto;
+} 
+
+#header-block .header-overlay { 
+  background: rgba(0,0,0,0.6); 
+}
+
 .ui-logo { text-align: center }
