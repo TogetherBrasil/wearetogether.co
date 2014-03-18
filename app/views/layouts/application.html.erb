@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Together</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+<title>Together</title>
+<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
 </head>
 <body>
 
@@ -12,25 +12,14 @@
   <div class="header-overlay">
     <%= render 'layouts/header' %>
   </div>
-
-
+</div>
+<div id="content-block">
+  <%= yield %>
+</div>
 
 <div id="footer-block">
   <%= render 'layouts/footer' %>
 </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<%= yield %>
 
 </body>
 </html>
