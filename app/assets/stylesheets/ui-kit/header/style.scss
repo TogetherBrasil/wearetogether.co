@@ -1565,7 +1565,8 @@ section * {
   filter: alpha(opacity=20);
 }
 .header-5 .navbar .navbar-header {
-  float: none;
+  display: block;
+  clear: both;
 }
 .header-5 .navbar .navbar-collapse {
   position: relative;
@@ -6292,6 +6293,12 @@ section * {
 .header-22 .header-background {
   background: #fff;
 }
+
+.header-22 .navbar-header .brand {
+  display: block;
+  clear: both;
+}
+
 .header-22 > [class*="fui-"] {
   display: block;
   margin-left: auto;

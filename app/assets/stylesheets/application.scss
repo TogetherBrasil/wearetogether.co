@@ -30,6 +30,24 @@ body { padding-top: 0 }
 #header-block h1 { 
   font-family: "Metaserif Bold" !important;
   font-size: 40pt;
+  line-height: 1.4em;
+  font-weight: 100;
 
 }
 
+#header-block .navbar-header {
+  display: block;
+  width: 80px;
+  height: 50px;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#header-block .navbar .brand { padding: 0 }
+
+#header-block .navbar-header a img { display: block; width: 50px; height: 50px; margin: auto }
+
+#header-block ul.nav { clear: both; width: 44%; margin: 0 auto; }
+#header-block ul.nav a { font-size: .7em; font-weight: 600; text-transform: uppercase; font-family: "Theinhardt Ultralight" }

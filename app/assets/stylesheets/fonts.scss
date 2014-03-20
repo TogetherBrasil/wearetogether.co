@@ -69,8 +69,8 @@
         font-url('theinhardt-bold-webfont.woff') format('woff'),
         font-url('theinhardt-bold-webfont.ttf') format('truetype'),
         font-url('theinhardt-bold-webfont.svg#theinhardtbold') format('svg');
-    font-weight: normal;
-    font-style: bold;
+    font-weight: bold;
+    font-style: normal;
 
 }
 
@@ -78,14 +78,14 @@
 
 
 @font-face {
-    font-family: 'Theinhardt';
+    font-family: 'Theinhardt Thin';
     src:font-url('theinhardt-thinita-webfont.eot');
     src:font-url('theinhardt-thinita-webfont.eot?#iefix') format('embedded-opentype'),
         font-url('theinhardt-thinita-webfont.woff') format('woff'),
         font-url('theinhardt-thinita-webfont.ttf') format('truetype'),
         font-url('theinhardt-thinita-webfont.svg#theinhardtthin_italic') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
 
